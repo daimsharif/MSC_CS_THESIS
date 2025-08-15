@@ -35,6 +35,10 @@ This study uses multi-centre, multi-vendor cardiac MRI datasets:
 
 ⚠ **Note:** Due to licensing restrictions, the datasets are **not included** in this repository.
 
-To run the experiments
+
+To carry out preprocessing and then run the experiments
 ```bash
+
+python do_preprocessing_ACDC.py
+python do_preprocessing.py
 python run_core_experiments.py
