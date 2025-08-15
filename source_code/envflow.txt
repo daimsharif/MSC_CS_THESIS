@@ -1,0 +1,13 @@
+conda create -n myfedenv python=3.9 pip -y
+conda activate myfedenv 
+conda install numpy scipy pandas scikit-learn matplotlib (one by one)
+conda install tqdm pyyaml pillow
+
+conda install -c conda-forge nibabel --freeze-installed
+pip install simpleitk 
+
+# 3) Install PyTorch + CUDA
+conda install pytorch=1.13.1 torchvision torchaudio cudatoolkit=11.7 -c pytorch -y
+
+# 4) Install pip-only deps
+pip install torchio==0.18.86

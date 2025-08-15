@@ -1,0 +1,24 @@
+name: myfedenv
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - tqdm
+  - pyyaml
+  - pillow
+  - nibabel
+  - simpleitk
+  - pytorch=1.13.1
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.7
+  - pip:
+      - torchio==0.18.86
