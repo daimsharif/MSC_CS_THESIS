@@ -33,8 +33,6 @@ This study uses multi-centre, multi-vendor cardiac MRI datasets:
 - Intensity rescaling  
 - End-diastole / End-systole (ED/ES) frame extraction  
 
-⚠ **Note:** Due to licensing restrictions, the datasets are **not included** in this repository.
-
 
 To carry out preprocessing and then run the experiments
 ```bash
